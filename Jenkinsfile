@@ -12,7 +12,6 @@ pipeline {
       parallel {
         stage('Test') {
           steps {
-            sleep 10
             echo 'Test Success'
           }
         }
